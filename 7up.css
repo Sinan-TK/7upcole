@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #00D2C6;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    width: 100%;
+}
+.header{
+    padding: 5px 0%; 
+    background-color: #00D2C6;
+    
+    width: 100%;
+}
+nav{
+    position: relative;
+    margin-left: 1.5%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0%;
+    
+}
+.first{
+    margin-top: 6.1%;
+    background-image: url(7up-images/7up\ bk.webp);
+    height: 95vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 0%;
+    position: relative;
+}
+.right{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.text ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    position: relative;
+}
+.text ul li a{
+    padding: 0% 18px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: white;
+    justify-content: space-around;
+    text-decoration: none;
+    position: relative;
+    width: max-content;
+}
+.text ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+}
+.firsttext{
+    position: relative;
+    top: 31%;
+    left: 5.3%;
+}
+.firsttext p{
+    font-family: "Fredoka", sans-serif;
+    font-size: 120px;
+    color: white;
+    
+}
+#learn{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px 2%;
+    border: 3px solid white;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second{
+    background-image: url(7up-images/7up\ image2.webp);
+    background-repeat: no-repeat;
+    height: 93vh;
+    width: 100%;
+    background-size: cover;
+    margin-top: -59px;
+    position: relative;
+}
+.green1{
+    padding: 48px 280px;
+    background-color: #1b5c2dcb;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Recipes{
+    border: 3px solid white;
+    padding: 8px 30px;
+    border-radius: 50px;
+}
+.third{
+    background-image: url(7up-images/7up\ image3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 93vh;
+    position: relative;
+}
+.green2{
+    padding: 48px 280px;
+    background-color: #1b5c2dcb;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product{
+    border: 3px solid white;
+    padding: 8px 30px;
+    border-radius: 50px;
+}
+footer{
+    padding:  2% 0px;
+    padding-bottom: 4%;
+    background-color: rgb(68, 68, 68);
+    position: relative;
+    
+} 
+.foot{
+    padding-inline: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 0%; 
+    background-color: rgb(68, 68, 68);
+
+}
+#top{
+    position: absolute;
+    /* left: 50%;*/
+    top: 10%;
+    /*transform: translate(-50%,-50%); */
+    padding-bottom: 10px;
+} 
+#top ul li a{
+    font-size: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bottom{
+    position: absolute;
+    font-size: 20px;
+    bottom: 45%;
+}
+#bottom p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#top{
+    position: absolute;
+    
+}
+#top ul{
+    display: flex;
+    list-style: none;   
+}
+#top ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
